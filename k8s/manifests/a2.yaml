@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: a2
-          image: a1.1:latest
+          image: otot-a1-nodejs-app:latest
           imagePullPolicy: Never
           ports:
             - name: http
